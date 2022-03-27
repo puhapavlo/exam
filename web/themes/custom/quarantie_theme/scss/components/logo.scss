@@ -1,0 +1,27 @@
+@import "../dev/variables";
+
+.block-system-branding-block{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $darkBlue;
+  height: 100%;
+}
+
+.site-name{
+  a{
+    text-decoration: none;
+    color: $blue;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.site-slogan{
+  color: $white;
+  font-size: 16px;
+  text-align: center;
+}

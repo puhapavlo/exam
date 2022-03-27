@@ -1,0 +1,31 @@
+@import "../dev/variables";
+#block-lineheader{
+  .block-field-blockblock-contentbasicbody{
+    margin-top: 0;
+  }
+
+  .field--name-body{
+    display: flex;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    div{
+      width: 100%;
+      height: 8px;
+      &:first-child{
+        width: 34%;
+        background-color: $blue;
+      }
+
+      &:nth-child(2){
+        width: 0.5%;
+        background-color: $darkBlue;
+      }
+
+      &:last-child{
+        width: 65.5%;
+        background-color: $gray;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<div class="layout-container">
+
+  <header role="banner">
+    <div class="container">
+      {{ page.primary_menu }}
+      {{ page.header }}
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      {{ page.highlighted }}
+    </div>
+  </section>
+
+  <main role="main">
+
+    {{ page.content }}
+
+  </main>
+
+  {% if page.footer %}
+    <footer role="contentinfo">
+      <div class="container">
+        {{ page.footer }}
+      </div>
+    </footer>
+  {% endif %}
+
+</div>

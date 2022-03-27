@@ -1,0 +1,62 @@
+@import "../dev/variables";
+
+.node--type-worker{
+  .social-media-links--platforms{
+    display: flex;
+    justify-content: flex-end;
+
+    a{
+      .fa{
+        font-family: FontAwesome;
+      }
+    }
+  }
+}
+
+.block-views-blockworkers-block-1{
+  margin-top: 100px;
+  .view-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+
+    .view-row{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .field--name-title{
+    margin: 40px 0 8px 0;
+  }
+
+  .field--name-field-profession{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $gray;
+  }
+
+  .layout--twocol-section{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .node__links{
+    display: flex;
+    justify-content: center;
+  }
+
+  .flag-like{
+    display: flex;
+    justify-content: center;
+  }
+
+  .node-readmore{
+    background-color: $darkBlue;
+  }
+}

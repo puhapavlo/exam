@@ -1,0 +1,22 @@
+@import "../dev/variables";
+
+footer{
+  margin-top: 170px;
+  height: 200px;
+  background-color: $darkBlue;
+
+  .region-footer{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .fa{
+    font-family: 'FontAwesome';
+  }
+
+  .container{
+    height: 100%;
+  }
+}

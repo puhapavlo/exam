@@ -1,0 +1,15 @@
+.node__content img {
+  display: block;
+  margin: 0 auto;
+}
+.node__content .text-formatted {
+  margin-top: 30px;
+}
+.node__content .text-formatted p {
+  font-size: 14px;
+  color: #2c2c2c;
+}
+
+.node--view-mode-teaser h2 {
+  display: none;
+}

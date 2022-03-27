@@ -1,0 +1,26 @@
+.node-readmore, .views-field-view-node {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px !important;
+  background-color: #6e9bca;
+}
+.node-readmore a, .views-field-view-node a {
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+.node-readmore:hover, .views-field-view-node:hover {
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+  background-color: #2b4f77;
+}

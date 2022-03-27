@@ -1,0 +1,41 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      "https://fonts:googleapis:com/css2?family=Open+Sans:wght@300;400;700&display=swap": {external: true}
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css": {external: true}
+      css/base/elements.css: {}
+      css/base/container.css: {}
+    components:
+      css/components/title.css: {}
+      css/components/logo.css: {}
+      css/components/button.css: {}
+      css/components/like.css: {}
+      css/components/social.css: {}
+      css/components/node.css: {}
+      css/components/header.css: {}
+      css/components/line.css: {}
+      css/components/about.css: {}
+      css/components/services.css: {}
+      css/components/projects.css: {}
+      css/components/team.css: {}
+      css/components/news.css: {}
+      css/components/clients.css: {}
+      css/components/footer.css: {}
+      css/components/contact.css: {}
+      css/components/search-results.css: {}
+    media:
+      css/media.css: {}
+
+search-news:
+  version: VERSION
+  js:
+    js/search-news.js: {}
+
+burger-menu:
+  version: VERSION
+  css:
+    burger:
+      css/burger/burger.css: {}
+  js:
+    js/burger.js: {}

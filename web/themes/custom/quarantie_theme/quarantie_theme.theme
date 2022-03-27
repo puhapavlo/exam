@@ -1,0 +1,28 @@
+<?php
+$form_id = "search-block-form";
+
+function quarantie_theme_form_search_block_form_alter(&$form, &$form_state, $form_id) {
+  $form['actions']['submit']['#value'] = html_entity_decode('&#xF002;');
+  $form['actions']['submit']['#attributes']['class'][] = 'search-button';
+}
+
+function quarantie_theme_preprocess_node(&$variables) {
+  if ($variables['teaser'] && $variables['node']->getType() == 'worker') {
+    $node_type_is_page = &drupal_static('node_type_is_worker');
+    $node_type_is_page = TRUE;
+  }
+}
+
+function quarantie_theme_preprocess_links(&$variables) {
+  if ($node_type_is_page = &drupal_static('node_type_is_worker')) {
+    if (isset($variables['links']['node-readmore'])) {
+      $variables['links']['node-readmore']['link']['#title'] = t('look at me');
+    }
+  }
+}
+
+function quarantie_theme_preprocess_page(array &$vars): void {
+  if ($vars['is_front']) {
+    $vars['#attached']['library'][] = 'quarantie_theme/search-news';
+  }
+}

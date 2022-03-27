@@ -1,0 +1,27 @@
+#block-lineheader .block-field-blockblock-contentbasicbody {
+  margin-top: 0;
+}
+#block-lineheader .field--name-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#block-lineheader .field--name-body div {
+  width: 100%;
+  height: 8px;
+}
+#block-lineheader .field--name-body div:first-child {
+  width: 34%;
+  background-color: #6e9bca;
+}
+#block-lineheader .field--name-body div:nth-child(2) {
+  width: 0.5%;
+  background-color: #373645;
+}
+#block-lineheader .field--name-body div:last-child {
+  width: 65.5%;
+  background-color: #cccccc;
+}

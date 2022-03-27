@@ -1,0 +1,14 @@
+.block-views-blockclients-block-1 {
+  margin-top: 30px;
+}
+.block-views-blockclients-block-1 .slick__slider {
+  margin-top: 70px;
+}
+.block-views-blockclients-block-1 .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

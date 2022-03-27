@@ -1,0 +1,76 @@
+.node--type-worker .social-media-links--platforms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.node--type-worker .social-media-links--platforms a .fa {
+  font-family: FontAwesome;
+}
+
+.block-views-blockworkers-block-1 {
+  margin-top: 100px;
+}
+.block-views-blockworkers-block-1 .view-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 35px;
+}
+.block-views-blockworkers-block-1 .view-content .view-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.block-views-blockworkers-block-1 .field--name-title {
+  margin: 40px 0 8px 0;
+}
+.block-views-blockworkers-block-1 .field--name-field-profession {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #cccccc;
+}
+.block-views-blockworkers-block-1 .layout--twocol-section {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+.block-views-blockworkers-block-1 .node__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.block-views-blockworkers-block-1 .flag-like {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.block-views-blockworkers-block-1 .node-readmore {
+  background-color: #373645;
+}

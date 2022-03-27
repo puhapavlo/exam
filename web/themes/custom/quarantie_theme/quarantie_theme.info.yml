@@ -1,0 +1,17 @@
+name: Quarantie Theme
+type: theme
+description: 'Quarantie Theme'
+core_version_requirement: ^8 || ^9
+base theme: classy
+
+libraries:
+  - quarantie_theme/global-styling
+  - quarantie_theme/burger-menu
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  highlighted: Highlighted
+  content: Content
+  footer: 'Footer'
+

@@ -1,0 +1,38 @@
+@import "../dev/variables";
+
+.region-highlighted{
+  text-transform: uppercase;
+
+  .block-views-blockabout-block-block-1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 8px $darkBlue;
+    border-bottom: solid 8px $blue;
+    align-items: center;
+
+    h2{
+      &:before, &:after{
+        content: '';
+        display: none;
+      }
+    }
+
+    .views-row{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .views-field-body{
+      .field-content{
+        color: $gray;
+        font-size: 18px;
+        margin-right: 55px;
+        margin-top: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import "../dev/variables";
+
+.container, .view-content, .block-field-blocknodepagebody, .field__items, article[about="/contact"], form[action="/search/news"], .search-form, .search-results{
+  max-width: $ExtraLarge;
+  padding: 0 10px;
+  margin: 0 auto;
+
+  @media(max-width: $ExtraLarge) {
+    &{
+      max-width: $Large;
+    }
+  }
+
+  @media(max-width: $Large) {
+    &{
+      max-width: $Medium;
+    }
+  }
+
+  @media(max-width: $Medium) {
+    &{
+      max-width: $Small;
+    }
+  }
+
+  @media(max-width: $Small) {
+    &{
+      max-width: 100%;
+    }
+  }
+}
+
+

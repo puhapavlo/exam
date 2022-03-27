@@ -1,0 +1,35 @@
+.social-media-links--platforms {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.social-media-links--platforms .fa {
+  color: #fff;
+}
+.social-media-links--platforms .fa-linkedin {
+  font-size: 19px;
+}
+.social-media-links--platforms .fa-linkedin:before {
+  content: "\f0e1";
+}
+.social-media-links--platforms .fa-facebook {
+  font-size: 23px;
+}
+.social-media-links--platforms .fa-twitter {
+  font-size: 19px;
+}
+.social-media-links--platforms a {
+  height: 30px;
+  width: 30px;
+  background-color: #6e9bca;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: transparent;
+}

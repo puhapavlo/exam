@@ -1,0 +1,33 @@
+@import "../dev/variables";
+
+.social-media-links--platforms{
+  align-items: center;
+  .fa{
+    color: $white;
+    &-linkedin{
+      font-size: 19px;
+
+      &:before{
+        content: "\f0e1";
+      }
+    }
+
+    &-facebook{
+      font-size: 23px;
+    }
+
+    &-twitter{
+      font-size: 19px;
+    }
+  }
+
+  a{
+    height: 30px;
+    width: 30px;
+    background-color: $blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+  }
+}

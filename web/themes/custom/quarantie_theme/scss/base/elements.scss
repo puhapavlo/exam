@@ -1,0 +1,48 @@
+@import "../dev/variables";
+
+*{
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: $darkBlue;
+}
+
+h1, h2, h3{
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 26px;
+  &:after, &:before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 1px;
+    width: 40%;
+    background-color: $gray;
+    border: solid #FFF;
+    border-width: 0 10px;
+  }
+
+  &:after{
+    margin-right: -100%;
+  }
+
+  &:before{
+    margin-left: -100%;
+  }
+}
+
+h3{
+  font-size: 21px;
+}
+
+p{
+  font-size: 13px;
+}
+
+img{
+  max-width: 100%;
+}

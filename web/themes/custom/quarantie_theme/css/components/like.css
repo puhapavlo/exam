@@ -1,0 +1,10 @@
+.flag-like a {
+  font-family: "FontAwesome";
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.flag-like.action-flag a {
+  color: red;
+}
